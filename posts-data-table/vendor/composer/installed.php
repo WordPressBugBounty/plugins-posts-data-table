@@ -3,7 +3,7 @@
         'name' => 'barn2/posts-data-table',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '7c9f8f5368d010cdcccd9b029ecba1cdd07616c3',
+        'reference' => '5a17d0736a72e7312960f19d2aefaa503972b916',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'barn2/posts-data-table' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '7c9f8f5368d010cdcccd9b029ecba1cdd07616c3',
+            'reference' => '5a17d0736a72e7312960f19d2aefaa503972b916',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

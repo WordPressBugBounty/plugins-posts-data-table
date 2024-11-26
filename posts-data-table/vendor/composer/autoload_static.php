@@ -26,6 +26,7 @@ class ComposerStaticInitfb3a4de6c50f8f4e22675e159c48cfe4
 
     public static $classMap = array (
         'Barn2\\Plugin\\Posts_Table_Search_Sort\\Dependencies\\Lib\\Admin\\Abstract_Plugin_Promo' => __DIR__ . '/../..' . '/dependencies/barn2/barn2-lib/src/Admin/Abstract_Plugin_Promo.php',
+        'Barn2\\Plugin\\Posts_Table_Search_Sort\\Dependencies\\Lib\\Admin\\Notice' => __DIR__ . '/../..' . '/dependencies/barn2/barn2-lib/src/Admin/Notice.php',
         'Barn2\\Plugin\\Posts_Table_Search_Sort\\Dependencies\\Lib\\Admin\\Notices' => __DIR__ . '/../..' . '/dependencies/barn2/barn2-lib/src/Admin/Notices.php',
         'Barn2\\Plugin\\Posts_Table_Search_Sort\\Dependencies\\Lib\\Admin\\Plugin_Promo' => __DIR__ . '/../..' . '/dependencies/barn2/barn2-lib/src/Admin/Plugin_Promo.php',
         'Barn2\\Plugin\\Posts_Table_Search_Sort\\Dependencies\\Lib\\Admin\\Settings_API_Helper' => __DIR__ . '/../..' . '/dependencies/barn2/barn2-lib/src/Admin/Settings_API_Helper.php',
@@ -68,13 +69,13 @@ class ComposerStaticInitfb3a4de6c50f8f4e22675e159c48cfe4
         'Barn2\\Plugin\\Posts_Table_Search_Sort\\Dependencies\\Lib\\Service\\Service_Container' => __DIR__ . '/../..' . '/dependencies/barn2/barn2-lib/src/Service/Service_Container.php',
         'Barn2\\Plugin\\Posts_Table_Search_Sort\\Dependencies\\Lib\\Service\\Service_Provider' => __DIR__ . '/../..' . '/dependencies/barn2/barn2-lib/src/Service/Service_Provider.php',
         'Barn2\\Plugin\\Posts_Table_Search_Sort\\Dependencies\\Lib\\Service\\Standard_Service' => __DIR__ . '/../..' . '/dependencies/barn2/barn2-lib/src/Service/Standard_Service.php',
+        'Barn2\\Plugin\\Posts_Table_Search_Sort\\Dependencies\\Lib\\Service\\Updater' => __DIR__ . '/../..' . '/dependencies/barn2/barn2-lib/src/Service/Updater.php',
         'Barn2\\Plugin\\Posts_Table_Search_Sort\\Dependencies\\Lib\\Template_Loader' => __DIR__ . '/../..' . '/dependencies/barn2/barn2-lib/src/Template_Loader.php',
         'Barn2\\Plugin\\Posts_Table_Search_Sort\\Dependencies\\Lib\\Traits\\Plugin_Aware' => __DIR__ . '/../..' . '/dependencies/barn2/barn2-lib/src/Traits/Plugin_Aware.php',
         'Barn2\\Plugin\\Posts_Table_Search_Sort\\Dependencies\\Lib\\Translatable' => __DIR__ . '/../..' . '/dependencies/barn2/barn2-lib/src/Translatable.php',
         'Barn2\\Plugin\\Posts_Table_Search_Sort\\Dependencies\\Lib\\Util' => __DIR__ . '/../..' . '/dependencies/barn2/barn2-lib/src/Util.php',
         'Barn2\\Plugin\\Posts_Table_Search_Sort\\Dependencies\\Lib\\WP_Scoped_Hooks' => __DIR__ . '/../..' . '/dependencies/barn2/barn2-lib/src/WP_Scoped_Hooks.php',
         'Barn2\\Plugin\\Posts_Table_Search_Sort\\Dependencies\\Lib\\WooCommerce\\Admin\\Custom_Settings_Fields' => __DIR__ . '/../..' . '/dependencies/barn2/barn2-lib/src/WooCommerce/Admin/Custom_Settings_Fields.php',
-        'Barn2\\Plugin\\Posts_Table_Search_Sort\\Dependencies\\Lib\\WooCommerce\\Admin\\Navigation' => __DIR__ . '/../..' . '/dependencies/barn2/barn2-lib/src/WooCommerce/Admin/Navigation.php',
         'Barn2\\Plugin\\Posts_Table_Search_Sort\\Dependencies\\Lib\\WooCommerce\\Admin\\Plugin_Promo' => __DIR__ . '/../..' . '/dependencies/barn2/barn2-lib/src/WooCommerce/Admin/Plugin_Promo.php',
         'Barn2\\Plugin\\Posts_Table_Search_Sort\\Dependencies\\Lib\\WooCommerce\\Admin\\Settings_Util' => __DIR__ . '/../..' . '/dependencies/barn2/barn2-lib/src/WooCommerce/Admin/Settings_Util.php',
         'Barn2\\Plugin\\Posts_Table_Search_Sort\\Dependencies\\Lib\\WooCommerce\\Compatibility' => __DIR__ . '/../..' . '/dependencies/barn2/barn2-lib/src/WooCommerce/Compatibility.php',
