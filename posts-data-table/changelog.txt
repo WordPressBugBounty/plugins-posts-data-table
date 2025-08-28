@@ -1,3 +1,8 @@
+= 1.4.11 =
+Release date 28 August 2025
+
+* Dev: Updated internal libraries
+
 = 1.4.10 =
 Release date 21 April 2025
 

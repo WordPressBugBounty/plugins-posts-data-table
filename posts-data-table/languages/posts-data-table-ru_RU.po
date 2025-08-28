@@ -2,45 +2,37 @@
 # This file is distributed under the GNU General Public License v3.0.
 msgid ""
 msgstr ""
-"Project-Id-Version: Posts Data Table\n"
+"Project-Id-Version: Posts Table with Search & Sort 1.3.8\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/posts-data-table\n"
-"POT-Creation-Date: 2018-08-06 14:26+0100\n"
+"POT-Creation-Date: 2023-02-06 17:50:40+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2025-08-28 15:19+0000\n"
+"PO-Revision-Date: 2025-08-28 15:21+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: \n"
-"X-Generator: Poedit 2.1.1\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Language: es-ES\n"
-"X-Poedit-Basepath: ..\n"
-"X-Poedit-WPHeader: posts-data-table.php\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: "
-"__;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,"
-"2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__"
-"ngettext_noop:1,2\n"
-"X-Poedit-SearchPath-0: .\n"
-"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: node-wp-i18n 1.2.6\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: ru-RU\n"
 
 #: dependencies/src/Api.php:152 vendor/barn2/setup-wizard/src/Api.php:216
 msgid "Could not find the appropriate step."
-msgstr "No se pudo encontrar el paso apropiado."
+msgstr "Не удалось найти соответствующий шаг."
 
 #: dependencies/src/Api.php:192 vendor/barn2/setup-wizard/src/Api.php:285
 msgid "Please enter a license key."
-msgstr "Por favor, introduce una clave de licencia."
+msgstr "Пожалуйста, введите ключ лицензии."
 
 #: dependencies/src/Api.php:195 vendor/barn2/setup-wizard/src/Api.php:293
 msgid "Invalid action requested."
-msgstr "Acción solicitada no válida."
+msgstr "Запрашиваемое действие недействительно."
 
 #: dependencies/src/Setup_Wizard.php:333
 #: vendor/barn2/setup-wizard/src/Setup_Wizard.php:382
 #. translators: %s: The name of the plugin.
 msgid "%s setup wizard"
-msgstr "%s asistente de configuración"
+msgstr "%s мастер настройки"
 
 #: dependencies/src/Setup_Wizard.php:423 dependencies/src/Setup_Wizard.php:496
 #: vendor/barn2/setup-wizard/src/Setup_Wizard.php:484
@@ -49,8 +41,8 @@ msgid ""
 "Warning: This will overwrite your existing settings for %s. Are you sure "
 "you want to continue?"
 msgstr ""
-"Advertencia: Esto sobrescribirá tu configuración existente para %s. ¿Estás "
-"seguro de que deseas continuar?"
+"Предупреждение: это перезапишет ваши существующие настройки для %s. Вы "
+"уверены, что хотите продолжить?"
 
 #: dependencies/src/Setup_Wizard.php:473 dependencies/src/Setup_Wizard.php:481
 #: dependencies/src/Setup_Wizard.php:531 src/Admin/Settings_Page.php:96
@@ -58,7 +50,7 @@ msgstr ""
 #: vendor/barn2/setup-wizard/src/Setup_Wizard.php:571
 #: vendor/barn2/setup-wizard/src/Setup_Wizard.php:631
 msgid "Setup wizard"
-msgstr "Asistente de configuración"
+msgstr "Мастер настройки"
 
 #: dependencies/src/Setup_Wizard.php:476
 #: vendor/barn2/setup-wizard/src/Setup_Wizard.php:570
@@ -66,35 +58,35 @@ msgid ""
 "If you need to access the setup wizard again, please click on the button "
 "below."
 msgstr ""
-"Si necesitas acceder al asistente de configuración nuevamente, por favor "
-"haz clic en el botón de abajo."
+"Если вам нужно снова получить доступ к мастеру настройки, пожалуйста, "
+"нажмите на кнопку ниже."
 
 #: dependencies/src/Steps/Cross_Selling.php:23
 #: src/Admin/Wizard/Steps/Upsell.php:22
 #: vendor/barn2/setup-wizard/src/Steps/Cross_Selling.php:22
 msgid "More"
-msgstr "Más"
+msgstr "Больше"
 
 #: dependencies/src/Steps/Cross_Selling.php:24
 #: src/Admin/Wizard/Steps/Upsell.php:24
 #: vendor/barn2/setup-wizard/src/Steps/Cross_Selling.php:23
 msgid "Extra features"
-msgstr "Funciones adicionales"
+msgstr "Дополнительные функции"
 
 #: dependencies/src/Steps/Cross_Selling.php:25
 #: vendor/barn2/setup-wizard/src/Steps/Cross_Selling.php:24
 msgid "Enhance your site with these fantastic plugins from Barn2."
-msgstr "Mejora tu sitio con estos fantásticos plugins de Barn2."
+msgstr "Улучшите свой сайт с помощью этих фантастических плагинов от Barn2."
 
 #: dependencies/src/Steps/Ready.php:23 src/Admin/Wizard/Steps/Completed.php:22
 #: vendor/barn2/setup-wizard/src/Steps/Ready.php:22
 msgid "Ready"
-msgstr "Listo"
+msgstr "Готово"
 
 #: dependencies/src/Steps/Ready.php:24 src/Admin/Wizard/Steps/Completed.php:23
 #: vendor/barn2/setup-wizard/src/Steps/Ready.php:23
 msgid "Setup Complete"
-msgstr "Configuración completada"
+msgstr "Настройка завершена"
 
 #: dependencies/src/Steps/Welcome.php:25
 #: dependencies/src/Steps/Welcome_Free.php:24
@@ -102,312 +94,310 @@ msgstr "Configuración completada"
 #: vendor/barn2/setup-wizard/src/Steps/Welcome.php:24
 #: vendor/barn2/setup-wizard/src/Steps/Welcome_Free.php:23
 msgid "Welcome"
-msgstr "Bienvenido"
+msgstr "Добро пожаловать"
 
 #: dependencies/src/Util.php:28 vendor/barn2/setup-wizard/src/Util.php:31
 msgid "Select an option"
-msgstr "Selecciona una opción"
+msgstr "Выберите вариант"
 
 #: lib/Admin/Settings_API_Helper.php:298
 msgid "Size"
-msgstr "Tamaño"
+msgstr "Размер"
 
 #: lib/Util.php:39 src/Admin/Wizard/Steps/Layout.php:50
 #: src/Admin/Wizard/Steps/Loading.php:44
 msgid "Read more"
-msgstr "Leer más"
+msgstr "Читать далее"
 
 #: src/Admin/Admin_Controller.php:44
 msgid "Settings"
-msgstr "Configuraciones"
+msgstr "Настройки"
 
 #: src/Admin/Admin_Controller.php:55
 msgid "Pro Version"
-msgstr "Versión Pro"
+msgstr "Профессиональная версия"
 
 #: src/Admin/Settings_Page.php:67 src/Admin/Settings_Page.php:68
 msgid "Posts Table With Search &amp; Sort"
-msgstr "Tabla de publicaciones con búsqueda y ordenamiento"
+msgstr "Таблица записей с поиском и сортировкой"
 
 #: src/Admin/Settings_Page.php:91
 msgid "Documentation"
-msgstr "Documentación"
+msgstr "Документация"
 
 #: src/Admin/Settings_Page.php:123
 msgid "Posts Table with Search and Sort"
-msgstr "Tabla de Publicaciones con Búsqueda y Ordenación"
+msgstr "Таблица постов с поиском и сортировкой"
 
 #: src/Admin/Settings_Page.php:136
 msgid "Save Changes"
-msgstr "Guardar Cambios"
+msgstr "Сохранить изменения"
 
 #: src/Admin/Settings_Page.php:164
 msgid "Posts selection"
-msgstr "Selección de publicaciones"
+msgstr "Выбор постов"
 
 #: src/Admin/Settings_Page.php:170 src/Admin/Wizard/Steps/Layout.php:36
 msgid "Post type"
-msgstr "Tipo de publicación"
+msgstr "Тип поста"
 
 #: src/Admin/Settings_Page.php:172 src/Admin/Wizard/Steps/Layout.php:37
 msgid "The default post type for your tables."
-msgstr "El tipo de publicación por defecto para tus tablas."
+msgstr "Тип поста по умолчанию для ваших таблиц."
 
 #: src/Admin/Settings_Page.php:184
 msgid "Table content"
-msgstr "Contenido de la tabla"
+msgstr "Содержимое таблицы"
 
 #: src/Admin/Settings_Page.php:190 src/Admin/Wizard/Steps/Layout.php:49
 msgid "Columns"
-msgstr "Columnas"
+msgstr "Столбцы"
 
 #: src/Admin/Settings_Page.php:192
 msgid "The columns displayed in your table. Enter a comma-separated list. "
-msgstr "Las columnas mostradas en tu tabla. Introduce una lista separada por comas. "
+msgstr "Столбцы, отображаемые в вашей таблице. Введите список, разделённый запятыми."
 
 #: src/Admin/Settings_Page.php:197
 msgid "Image size"
-msgstr "Tamaño de imagen"
+msgstr "Размер изображения"
 
 #: src/Admin/Settings_Page.php:199
 msgid "W x H in pixels. Sets the image size when using the 'image' column. "
 msgstr ""
-"An x Al en píxeles. Establece el tamaño de la imagen al usar la columna "
-"'imagen'. "
+"Ш x В в пикселях. Устанавливает размер изображения при использовании "
+"столбца 'изображение'."
 
 #: src/Admin/Settings_Page.php:204
 msgid "Image lightbox"
-msgstr "Lightbox de imagen"
+msgstr "Лайтбокс изображения"
 
 #: src/Admin/Settings_Page.php:206
 msgid "Display featured images in a lightbox when opened"
-msgstr "Mostrar imágenes destacadas en un lightbox al abrirse"
+msgstr "Отображать выделенные изображения в лайтбоксе при открытии"
 
 #: src/Admin/Settings_Page.php:210
 msgid "Shortcodes"
-msgstr "Códigos cortos"
+msgstr "Шорткоды"
 
 #: src/Admin/Settings_Page.php:213
 msgid "Display shortcodes, HTML and other formatting inside the table content"
-msgstr "Mostrar códigos cortos, HTML y otro formato dentro del contenido de la tabla"
+msgstr "Отображать шорткоды, HTML и другое форматирование внутри содержимого таблицы"
 
 #: src/Admin/Settings_Page.php:218 src/Admin/Wizard/Steps/Layout.php:55
 msgid "Content length"
-msgstr "Longitud del contenido"
+msgstr "Длина содержимого"
 
 #: src/Admin/Settings_Page.php:221 src/Admin/Settings_Page.php:233
 msgid "words"
-msgstr "palabras"
+msgstr "слов"
 
 #: src/Admin/Settings_Page.php:222
 msgid "Enter -1 to show the full post content."
-msgstr "Introduce -1 para mostrar el contenido completo de la publicación."
+msgstr "Введите -1, чтобы показать полный текст поста."
 
 #: src/Admin/Settings_Page.php:230
 msgid "Excerpt length"
-msgstr "Longitud del extracto"
+msgstr "Длина отрывка"
 
 #: src/Admin/Settings_Page.php:234
 msgid "Enter -1 to show the full excerpt."
-msgstr "Introduce -1 para mostrar el extracto completo."
+msgstr "Введите -1, чтобы показать полный отрывок."
 
 #: src/Admin/Settings_Page.php:242
 msgid "Links"
-msgstr "Enlaces"
+msgstr "Ссылки"
 
 #: src/Admin/Settings_Page.php:244
 msgid "Display links to the single post page, category, tag, or term archive. "
 msgstr ""
-"Mostrar enlaces a la página del post único, categoría, etiqueta o archivo "
-"de términos. "
+"Отображать ссылки на страницу одного поста, категорию, метку или архив "
+"термина. "
 
 #: src/Admin/Settings_Page.php:255 src/Admin/Wizard/Steps/Loading.php:27
 msgid "Table loading"
-msgstr "Cargando tabla"
+msgstr "Загрузка таблицы"
 
 #: src/Admin/Settings_Page.php:260 src/Admin/Wizard/Steps/Loading.php:42
 msgid "Lazy load"
-msgstr "Carga diferida"
+msgstr "Ленивая загрузка"
 
 #: src/Admin/Settings_Page.php:263 src/Admin/Wizard/Steps/Loading.php:43
 msgid "Load the posts one page at a time"
-msgstr "Cargar los posts una página a la vez"
+msgstr "Загружать посты по одной странице за раз"
 
 #: src/Admin/Settings_Page.php:264
 msgid "Enable this if you have many posts or experience slow page load times. "
 msgstr ""
-"Habilita esto si tienes muchos posts o experimentas tiempos de carga de "
-"página lentos. "
+"Включите это, если у вас много постов или вы сталкиваетесь с медленной "
+"загрузкой страниц. "
 
 #: src/Admin/Settings_Page.php:268
 msgid "Post limit"
-msgstr "Límite de posts"
+msgstr "Лимит постов"
 
 #: src/Admin/Settings_Page.php:271
 msgid "The maximum (total) number of posts to display in one table."
-msgstr "El número máximo (total) de posts a mostrar en una tabla."
+msgstr "Максимальное (общее) количество постов для отображения в одной таблице."
 
 #: src/Admin/Settings_Page.php:279 src/Admin/Wizard/Steps/Loading.php:36
 msgid "Posts per page"
-msgstr "Posts por página"
+msgstr "Постов на страницу"
 
 #: src/Admin/Settings_Page.php:282 src/Admin/Wizard/Steps/Loading.php:37
 msgid ""
 "The number of posts per page of results. Enter -1 to display all posts on "
 "one page."
 msgstr ""
-"El número de posts por página de resultados. Introduce -1 para mostrar "
-"todos los posts en una página."
+"Количество постов на странице результатов. Введите -1, чтобы отобразить все "
+"посты на одной странице."
 
 #: src/Admin/Settings_Page.php:289
 msgid "Caching"
-msgstr "Almacenamiento en caché"
+msgstr "Кэширование"
 
 #: src/Admin/Settings_Page.php:292
 msgid "Cache table contents to improve load time"
-msgstr "Almacenar en caché el contenido de la tabla para mejorar el tiempo de carga"
+msgstr "Кэшировать содержимое таблицы для улучшения времени загрузки"
 
 #: src/Admin/Settings_Page.php:305
 msgid "Sorting"
-msgstr "Ordenación"
+msgstr "Сортировка"
 
 #: src/Admin/Settings_Page.php:310 src/Admin/Wizard/Steps/Search.php:38
 msgid "Sort by"
-msgstr "Ordenar por"
+msgstr "Сортировать по"
 
 #: src/Admin/Settings_Page.php:314
 msgid "The initial sort order applied to the table. "
-msgstr "El orden de clasificación inicial aplicado a la tabla. "
+msgstr "Начальный порядок сортировки, применяемый к таблице. "
 
 #: src/Admin/Settings_Page.php:318 src/Admin/Wizard/Steps/Search.php:45
 msgid "Sort direction"
-msgstr "Dirección de ordenación"
+msgstr "Направление сортировки"
 
 #: src/Admin/Settings_Page.php:322 src/Admin/Wizard/Steps/Search.php:50
 msgid "Automatic"
-msgstr "Automático"
+msgstr "Автоматически"
 
 #: src/Admin/Settings_Page.php:323 src/Admin/Wizard/Steps/Search.php:54
 msgid "Ascending (A to Z, 1 to 99)"
-msgstr "Ascendente (A a Z, 1 a 99)"
+msgstr "По возрастанию (A до Z, 1 до 99)"
 
 #: src/Admin/Settings_Page.php:324 src/Admin/Wizard/Steps/Search.php:58
 msgid "Descending (Z to A, 99 to 1)"
-msgstr "Descendente (Z a A, 99 a 1)"
+msgstr "По убыванию (Z до A, 99 до 1)"
 
 #: src/Admin/Settings_Page.php:336
 msgid "Table controls"
-msgstr "Controles de la tabla"
+msgstr "Элементы управления таблицей"
 
 #: src/Admin/Settings_Page.php:341 src/Admin/Wizard/Steps/Search.php:64
 msgid "Search filters"
-msgstr "Filtros de búsqueda"
+msgstr "Поисковые фильтры"
 
 #: src/Admin/Settings_Page.php:345 src/Admin/Wizard/Steps/Search.php:69
 msgid "Disabled"
-msgstr "Deshabilitado"
+msgstr "Отключено"
 
 #: src/Admin/Settings_Page.php:346
 msgid "Show based on columns in table"
-msgstr "Mostrar basado en columnas en la tabla"
+msgstr "Показать на основе столбцов в таблице"
 
 #: src/Admin/Settings_Page.php:347
 msgid "Custom"
-msgstr "Personalizado"
+msgstr "Пользовательский"
 
 #: src/Admin/Settings_Page.php:349
 msgid ""
 "Dropdown lists to filter the table by category, tag, attribute, or custom "
 "taxonomy. "
 msgstr ""
-"Listas desplegables para filtrar la tabla por categoría, etiqueta, atributo "
-"o taxonomía personalizada. "
+"Выпадающие списки для фильтрации таблицы по категории, тегу, атрибуту или "
+"пользовательской таксономии. "
 
 #: src/Admin/Settings_Page.php:353
 msgid "Page length"
-msgstr "Longitud de página"
+msgstr "Длина страницы"
 
 #: src/Admin/Settings_Page.php:357 src/Admin/Settings_Page.php:370
 #: src/Admin/Settings_Page.php:382 src/Admin/Settings_Page.php:395
 msgid "Above table"
-msgstr "Sobre la tabla"
+msgstr "Выше таблицы"
 
 #: src/Admin/Settings_Page.php:358 src/Admin/Settings_Page.php:371
 #: src/Admin/Settings_Page.php:383 src/Admin/Settings_Page.php:396
 msgid "Below table"
-msgstr "Debajo de la tabla"
+msgstr "Ниже таблицы"
 
 #: src/Admin/Settings_Page.php:359 src/Admin/Settings_Page.php:372
 #: src/Admin/Settings_Page.php:384 src/Admin/Settings_Page.php:397
 msgid "Above and below table"
-msgstr "Sobre y debajo de la tabla"
+msgstr "Выше и ниже таблицы"
 
 #: src/Admin/Settings_Page.php:360 src/Admin/Settings_Page.php:373
 #: src/Admin/Settings_Page.php:385 src/Admin/Settings_Page.php:398
 msgid "Hidden"
-msgstr "Oculto"
+msgstr "Скрыто"
 
 #: src/Admin/Settings_Page.php:362
 msgid "The position of the 'Show [x] entries' dropdown list."
-msgstr "La posición de la lista desplegable 'Mostrar [x] entradas'."
+msgstr "Позиция выпадающего списка 'Показать [x] записей'."
 
 #: src/Admin/Settings_Page.php:366
 msgid "Search box"
-msgstr "Caja de búsqueda"
+msgstr "Поле поиска"
 
 #: src/Admin/Settings_Page.php:378
 msgid "Totals"
-msgstr "Totales"
+msgstr "Итого"
 
 #: src/Admin/Settings_Page.php:387
 msgid "The position of the post totals, e.g. 'Showing 1 to 5 of 10 entries'."
-msgstr ""
-"La posición de los totales de publicaciones, por ejemplo, 'Mostrando 1 a 5 "
-"de 10 entradas'."
+msgstr "Позиция итогов постов, например, 'Показано 1 по 5 из 10 записей'."
 
 #: src/Admin/Settings_Page.php:391
 msgid "Pagination buttons"
-msgstr "Botones de paginación"
+msgstr "Кнопки пагинации"
 
 #: src/Admin/Settings_Page.php:400
 msgid "The position of the paging buttons which scroll between results."
-msgstr "La posición de los botones de paginación que desplazan entre resultados."
+msgstr "Позиция кнопок пагинации, которые прокручивают результаты."
 
 #: src/Admin/Settings_Page.php:404
 msgid "Pagination type"
-msgstr "Tipo de paginación"
+msgstr "Тип пагинации"
 
 #: src/Admin/Settings_Page.php:408
 msgid "Numbers only"
-msgstr "Solo números"
+msgstr "Только числа"
 
 #: src/Admin/Settings_Page.php:409
 msgid "Prev|Next"
-msgstr "Anterior|Siguiente"
+msgstr "Предыдущий|Следующий"
 
 #: src/Admin/Settings_Page.php:410
 msgid "Prev|Next + Numbers"
-msgstr "Anterior|Siguiente + Números"
+msgstr "Предыдущий|Следующий + Числа"
 
 #: src/Admin/Settings_Page.php:411
 msgid "Prev|Next|First|Last"
-msgstr "Anterior|Siguiente|Primero|Último"
+msgstr "Предыдущий|Следующий|Первый|Последний"
 
 #: src/Admin/Settings_Page.php:412
 msgid "Prev|Next|First|Last + Numbers"
-msgstr "Prev|Siguiente|Primero|Último + Números"
+msgstr "Предыдущий|Следующий|Первый|Последний + Номера"
 
 #: src/Admin/Settings_Page.php:417
 msgid "Reset button"
-msgstr "Botón de reinicio"
+msgstr "Кнопка сброса"
 
 #: src/Admin/Settings_Page.php:420
 msgid "Show a reset button above the table"
-msgstr "Mostrar un botón de reinicio encima de la tabla"
+msgstr "Показать кнопку сброса над таблицей"
 
 #: src/Admin/Settings_Page.php:439
 msgid "Pro version only"
-msgstr "Versión Pro solamente"
+msgstr "Только для профессиональной версии"
 
 #: src/Admin/Settings_Page.php:451
 msgid ""
@@ -415,22 +405,22 @@ msgid ""
 "category, tag, author, etc. add the %1$scorresponding option%2$s to the "
 "[posts_table] shortcode."
 msgstr ""
-"Las tablas de publicaciones listan todas las publicaciones publicadas por "
-"defecto. Para restringir las publicaciones por categoría, etiqueta, autor, "
-"etc., añade la opción %1$scorrespondiente%2$s al shortcode [posts_table]."
+"Списки постов по умолчанию отображают все опубликованные посты. Чтобы "
+"ограничить посты по категории, тегу, автору и т.д., добавьте "
+"%1$scorresponding option%2$s в шорткод [posts_table]."
 
 #: src/Admin/Settings_Page.php:465
 msgid ""
 "You can override these settings for individual tables by adding options to "
 "the [posts_table] shortcode. See the %1$sKnowledge Base%2$s for details."
 msgstr ""
-"Puedes anular estas configuraciones para tablas individuales añadiendo "
-"opciones al shortcode [posts_table]. Consulta la %1$sBase de "
-"Conocimientos%2$s para más detalles."
+"Вы можете переопределить эти настройки для отдельных таблиц, добавив "
+"параметры в шорткод [posts_table]. См. %1$sБазу знаний%2$s для получения "
+"подробной информации."
 
 #: src/Admin/Wizard/Setup_Wizard.php:58
 msgid "Go to settings page"
-msgstr "Ir a la página de configuraciones"
+msgstr "Перейти на страницу настроек"
 
 #: src/Admin/Wizard/Steps/Completed.php:26
 msgid ""
@@ -438,74 +428,73 @@ msgid ""
 "target=\"_blank\">Knowledge Base</a> for further instructions, tutorials, "
 "videos, and much more."
 msgstr ""
-"¡Todo listo! Echa un vistazo a nuestra <a href=\"%s\" "
-"target=\"_blank\">Base de Conocimientos</a> para más instrucciones, "
-"tutoriales, vídeos y mucho más."
+"Вы готовы! Ознакомьтесь с нашей <a href=\"%s\" target=\"_blank\">Базой "
+"знаний</a> для получения дальнейших инструкций, уроков, видео и многого "
+"другого."
 
 #: src/Admin/Wizard/Steps/Layout.php:25
 msgid "Layout and Content"
-msgstr "Diseño y Contenido"
+msgstr "Макет и Содержимое"
 
 #: src/Admin/Wizard/Steps/Layout.php:26
 msgid "First, choose what to include in your post tables."
-msgstr "Primero, elige qué incluir en tus tablas de publicaciones."
+msgstr "Сначала выберите, что включить в ваши таблицы постов."
 
 #: src/Admin/Wizard/Steps/Layout.php:27
 msgid "Layout and content"
-msgstr "Diseño y contenido"
+msgstr "Макет и содержимое"
 
 #: src/Admin/Wizard/Steps/Layout.php:42
 msgid "Post"
-msgstr "Publicación"
+msgstr "Пост"
 
 #: src/Admin/Wizard/Steps/Layout.php:50
 msgid "List the columns to include in your posts tables."
-msgstr "Lista las columnas a incluir en tus tablas de publicaciones."
+msgstr "Перечислите столбцы, которые следует включить в ваши таблицы постов."
 
 #: src/Admin/Wizard/Steps/Layout.php:56
 msgid ""
 "If you have included a ‘content’ column, then enter the number of "
 "characters to appear in the table. Enter -1 to show the full content."
 msgstr ""
-"Si has incluido una columna de ‘contenido’, introduce el número de "
-"caracteres que deben aparecer en la tabla. Introduce -1 para mostrar el "
-"contenido completo."
+"Если вы включили столбец «содержимое», введите количество символов, которое "
+"будет отображаться в таблице. Введите -1, чтобы показать полный контент."
 
 #: src/Admin/Wizard/Steps/Loading.php:25
 msgid "Loading"
-msgstr "Cargando"
+msgstr "Загрузка"
 
 #: src/Admin/Wizard/Steps/Loading.php:26
 msgid "Control how the posts in the table load."
-msgstr "Controla cómo se cargan las publicaciones en la tabla."
+msgstr "Контролируйте, как посты в таблице загружаются."
 
 #: src/Admin/Wizard/Steps/Loading.php:44
 msgid "Enable this if you have many posts or experience slow page load times."
 msgstr ""
-"Activa esto si tienes muchas publicaciones o experimentas tiempos de carga "
-"de página lentos."
+"Включите это, если у вас много постов или если вы испытываете медленную "
+"загрузку страниц."
 
 #: src/Admin/Wizard/Steps/Search.php:24 src/Admin/Wizard/Steps/Search.php:26
 msgid "Search and Sort"
-msgstr "Buscar y Ordenar"
+msgstr "Поиск и Сортировка"
 
 #: src/Admin/Wizard/Steps/Search.php:25
 msgid "Next, make it quick and easy for people to find your posts."
 msgstr ""
-"A continuación, haz que sea rápido y fácil para las personas encontrar tus "
-"publicaciones."
+"Далее, сделайте так, чтобы пользователям было быстро и легко находить ваши "
+"посты."
 
 #: src/Admin/Wizard/Steps/Search.php:39
 msgid "The initial sort order applied to the table."
-msgstr "El orden de clasificación inicial aplicado a la tabla."
+msgstr "Начальный порядок сортировки, применяемый к таблице."
 
 #: src/Admin/Wizard/Steps/Upsell.php:23
 msgid "Enhance your store with these fantastic plugins from Barn2."
-msgstr "Mejora tu tienda con estos fantásticos complementos de Barn2."
+msgstr "Улучшите свой магазин с помощью этих фантастических плагинов от Barn2."
 
 #: src/Admin/Wizard/Steps/Welcome.php:25
 msgid "Start creating post tables in no time."
-msgstr "Empieza a crear tablas de publicaciones en un abrir y cerrar de ojos."
+msgstr "Начните создавать таблицы записей мгновенно."
 
 #: src/Admin/Wizard/Steps/Welcome.php:35
 msgid ""
@@ -513,51 +502,50 @@ msgid ""
 "these options later on the settings page, or override them in the shortcode "
 "for individual tables."
 msgstr ""
-"Utiliza este asistente de configuración para configurar rápidamente tus "
-"tablas de publicaciones. Puedes cambiar estas opciones más tarde en la "
-"página de configuración, o anularlas en el shortcode para tablas "
-"individuales."
+"Используйте этот мастер настройки, чтобы быстро настроить ваши таблицы "
+"записей. Вы можете изменить эти параметры позже на странице настроек или "
+"переопределить их в шорткоде для отдельных таблиц."
 
 #: src/Simple_Posts_Table.php:69
 msgid "ID"
-msgstr "ID"
+msgstr "ИД"
 
 #: src/Simple_Posts_Table.php:74
 msgid "Image"
-msgstr "Imagen"
+msgstr "Изображение"
 
 #: src/Simple_Posts_Table.php:79
 msgid "Title"
-msgstr "Título"
+msgstr "Название"
 
 #: src/Simple_Posts_Table.php:84
 msgid "Categories"
-msgstr "Categorías"
+msgstr "Категории"
 
 #: src/Simple_Posts_Table.php:89
 msgid "Tags"
-msgstr "Etiquetas"
+msgstr "Теги"
 
 #: src/Simple_Posts_Table.php:94
 msgid "Date"
-msgstr "Fecha"
+msgstr "Дата"
 
 #: src/Simple_Posts_Table.php:99
 msgid "Author"
-msgstr "Autor"
+msgstr "Автор"
 
 #: src/Simple_Posts_Table.php:104
 msgid "Content"
-msgstr "Contenido"
+msgstr "Содержание"
 
 #: src/Simple_Posts_Table.php:313
 #. translators: %s: the author's name
 msgid "Posts by %s"
-msgstr "Entradas por %s"
+msgstr "Записи от %s"
 
 #. Plugin Name of the plugin/theme
 msgid "Posts Table with Search & Sort"
-msgstr "Tabla de Publicaciones con Búsqueda y Ordenación"
+msgstr "Таблица записей с поиском и сортировкой"
 
 #. Plugin URI of the plugin/theme
 msgid "https://wordpress.org/plugins/posts-data-table/"
@@ -566,8 +554,8 @@ msgstr "https://wordpress.org/plugins/posts-data-table/"
 #. Description of the plugin/theme
 msgid "List your posts in an instantly searchable & sortable table."
 msgstr ""
-"Enumera tus publicaciones en una tabla instantáneamente buscable y "
-"ordenable."
+"Перечислите свои записи в таблице, которую можно мгновенно искать и "
+"сортировать."
 
 #. Author of the plugin/theme
 msgid "Barn2 Plugins"

@@ -20,6 +20,7 @@ class Plugin_License implements Registerable, License, Core_Service
 {
     const RENEWAL_STRING = 'UkVORVdBTDIw';
     private $item_id;
+    private $license_group;
     private $license_api;
     private $legacy_db_prefix;
     private $license_option;
@@ -32,12 +33,13 @@ class Plugin_License implements Registerable, License, Core_Service
      * @param License_API $license_api      The API to perform the various license actions (activate, deactivate, etc).
      * @param string      $legacy_db_prefix Legacy plugins only - the database prefix for the license settings.
      */
-    public function __construct($item_id, License_API $license_api, $legacy_db_prefix = '')
+    public function __construct($item_id, License_API $license_api, $legacy_db_prefix = '', $license_group = '')
     {
         $this->item_id = (int) $item_id;
         $this->license_api = $license_api;
         $this->legacy_db_prefix = \rtrim($legacy_db_prefix, '_');
         $this->license_option = 'barn2_plugin_license_' . $this->item_id;
+        $this->license_group = $license_group;
     }
     public function register()
     {
@@ -133,7 +135,7 @@ class Plugin_License implements Registerable, License, Core_Service
         $result = \false;
         $url_to_activate = $this->get_home_url();
         $license_data = ['license' => $license_key, 'url' => $url_to_activate];
-        $api_result = $this->license_api->activate_license($license_key, $this->item_id, $url_to_activate);
+        $api_result = $this->license_api->activate_license($license_key, $this->item_id, $url_to_activate, $this->license_group);
         if ($api_result->success) {
             // Successful response - now check whether license is valid.
             $response = $api_result->response;
@@ -250,7 +252,7 @@ class Plugin_License implements Registerable, License, Core_Service
         $url_to_refresh = $this->get_home_url();
         $license_data = ['license' => $license_key];
         // We use the home url when checking the license, as the license result should reflect the current site, not any previous site.
-        $api_result = $this->license_api->check_license($license_key, $this->item_id, $url_to_refresh);
+        $api_result = $this->license_api->check_license($license_key, $this->item_id, $url_to_refresh, $this->license_group);
         if ($api_result->success) {
             $result = \true;
             // Successful response returned.
@@ -281,7 +283,7 @@ class Plugin_License implements Registerable, License, Core_Service
          * When refreshing a license, the result only indicates
          * whether the refresh was successful, not whether the license is valid.
          * Use the license status in the `$license_data` parameter to determine the license validity.
-         * 
+         *
          * @param string  $license_key         The license key that was refreshed.
          * @param string  $url_to_refresh      The URL that was used to refresh the license.
          * @param array   $license_data        The license data after refresh.
@@ -553,7 +555,7 @@ class Plugin_License implements Registerable, License, Core_Service
         }
         return $info;
     }
-    private function get_license_info()
+    public function get_license_info()
     {
         $data = $this->get_license_data();
         return isset($data['license_info']) ? $data['license_info'] : [];
@@ -599,5 +601,20 @@ class Plugin_License implements Registerable, License, Core_Service
     {
         $license_data = $this->get_license_data();
         return $license_data['bonus_downloads'] ?? [];
+    }
+    /**
+     * Retrieves a link to upgrade the customer's current license
+     * to another version, if applicable. This link is updated with
+     * each activation and check_license endpoint request. Not all
+     * licenses will return an 'upgrade' property, so ensure your
+     * usage can handle an empty return value.
+     *
+     * @since 2.4.1
+     * @return string|null
+     */
+    public function get_upgrade_link()
+    {
+        $license_data = $this->get_license_data();
+        return $license_data['license_info']['upgrade'] ?? null;
     }
 }

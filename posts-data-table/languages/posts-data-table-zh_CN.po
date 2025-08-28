@@ -2,45 +2,36 @@
 # This file is distributed under the GNU General Public License v3.0.
 msgid ""
 msgstr ""
-"Project-Id-Version: Posts Data Table\n"
+"Project-Id-Version: Posts Table with Search & Sort 1.3.8\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/posts-data-table\n"
-"POT-Creation-Date: 2018-08-06 14:26+0100\n"
+"POT-Creation-Date: 2023-02-06 17:50:40+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2025-08-28 15:19+0000\n"
+"PO-Revision-Date: 2025-08-28 15:22+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: \n"
-"X-Generator: Poedit 2.1.1\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Language: es-ES\n"
-"X-Poedit-Basepath: ..\n"
-"X-Poedit-WPHeader: posts-data-table.php\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: "
-"__;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,"
-"2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__"
-"ngettext_noop:1,2\n"
-"X-Poedit-SearchPath-0: .\n"
-"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: node-wp-i18n 1.2.6\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: zh-CN\n"
 
 #: dependencies/src/Api.php:152 vendor/barn2/setup-wizard/src/Api.php:216
 msgid "Could not find the appropriate step."
-msgstr "No se pudo encontrar el paso apropiado."
+msgstr "找不到合适的步骤。"
 
 #: dependencies/src/Api.php:192 vendor/barn2/setup-wizard/src/Api.php:285
 msgid "Please enter a license key."
-msgstr "Por favor, introduce una clave de licencia."
+msgstr "请输入许可证密钥。"
 
 #: dependencies/src/Api.php:195 vendor/barn2/setup-wizard/src/Api.php:293
 msgid "Invalid action requested."
-msgstr "Acción solicitada no válida."
+msgstr "请求的操作无效。"
 
 #: dependencies/src/Setup_Wizard.php:333
 #: vendor/barn2/setup-wizard/src/Setup_Wizard.php:382
 #. translators: %s: The name of the plugin.
 msgid "%s setup wizard"
-msgstr "%s asistente de configuración"
+msgstr "%s 设置向导"
 
 #: dependencies/src/Setup_Wizard.php:423 dependencies/src/Setup_Wizard.php:496
 #: vendor/barn2/setup-wizard/src/Setup_Wizard.php:484
@@ -48,9 +39,7 @@ msgstr "%s asistente de configuración"
 msgid ""
 "Warning: This will overwrite your existing settings for %s. Are you sure "
 "you want to continue?"
-msgstr ""
-"Advertencia: Esto sobrescribirá tu configuración existente para %s. ¿Estás "
-"seguro de que deseas continuar?"
+msgstr "警告：这将覆盖您现有的 %s 设置。您确定要继续吗？"
 
 #: dependencies/src/Setup_Wizard.php:473 dependencies/src/Setup_Wizard.php:481
 #: dependencies/src/Setup_Wizard.php:531 src/Admin/Settings_Page.php:96
@@ -58,43 +47,41 @@ msgstr ""
 #: vendor/barn2/setup-wizard/src/Setup_Wizard.php:571
 #: vendor/barn2/setup-wizard/src/Setup_Wizard.php:631
 msgid "Setup wizard"
-msgstr "Asistente de configuración"
+msgstr "设置向导"
 
 #: dependencies/src/Setup_Wizard.php:476
 #: vendor/barn2/setup-wizard/src/Setup_Wizard.php:570
 msgid ""
 "If you need to access the setup wizard again, please click on the button "
 "below."
-msgstr ""
-"Si necesitas acceder al asistente de configuración nuevamente, por favor "
-"haz clic en el botón de abajo."
+msgstr "如果您需要再次访问设置向导，请点击下面的按钮。"
 
 #: dependencies/src/Steps/Cross_Selling.php:23
 #: src/Admin/Wizard/Steps/Upsell.php:22
 #: vendor/barn2/setup-wizard/src/Steps/Cross_Selling.php:22
 msgid "More"
-msgstr "Más"
+msgstr "更多"
 
 #: dependencies/src/Steps/Cross_Selling.php:24
 #: src/Admin/Wizard/Steps/Upsell.php:24
 #: vendor/barn2/setup-wizard/src/Steps/Cross_Selling.php:23
 msgid "Extra features"
-msgstr "Funciones adicionales"
+msgstr "额外功能"
 
 #: dependencies/src/Steps/Cross_Selling.php:25
 #: vendor/barn2/setup-wizard/src/Steps/Cross_Selling.php:24
 msgid "Enhance your site with these fantastic plugins from Barn2."
-msgstr "Mejora tu sitio con estos fantásticos plugins de Barn2."
+msgstr "使用这些来自 Barn2 的精彩插件增强您的网站。"
 
 #: dependencies/src/Steps/Ready.php:23 src/Admin/Wizard/Steps/Completed.php:22
 #: vendor/barn2/setup-wizard/src/Steps/Ready.php:22
 msgid "Ready"
-msgstr "Listo"
+msgstr "准备好"
 
 #: dependencies/src/Steps/Ready.php:24 src/Admin/Wizard/Steps/Completed.php:23
 #: vendor/barn2/setup-wizard/src/Steps/Ready.php:23
 msgid "Setup Complete"
-msgstr "Configuración completada"
+msgstr "设置完成"
 
 #: dependencies/src/Steps/Welcome.php:25
 #: dependencies/src/Steps/Welcome_Free.php:24
@@ -102,421 +89,389 @@ msgstr "Configuración completada"
 #: vendor/barn2/setup-wizard/src/Steps/Welcome.php:24
 #: vendor/barn2/setup-wizard/src/Steps/Welcome_Free.php:23
 msgid "Welcome"
-msgstr "Bienvenido"
+msgstr "欢迎"
 
 #: dependencies/src/Util.php:28 vendor/barn2/setup-wizard/src/Util.php:31
 msgid "Select an option"
-msgstr "Selecciona una opción"
+msgstr "选择一个选项"
 
 #: lib/Admin/Settings_API_Helper.php:298
 msgid "Size"
-msgstr "Tamaño"
+msgstr "大小"
 
 #: lib/Util.php:39 src/Admin/Wizard/Steps/Layout.php:50
 #: src/Admin/Wizard/Steps/Loading.php:44
 msgid "Read more"
-msgstr "Leer más"
+msgstr "阅读更多"
 
 #: src/Admin/Admin_Controller.php:44
 msgid "Settings"
-msgstr "Configuraciones"
+msgstr "设置"
 
 #: src/Admin/Admin_Controller.php:55
 msgid "Pro Version"
-msgstr "Versión Pro"
+msgstr "专业版"
 
 #: src/Admin/Settings_Page.php:67 src/Admin/Settings_Page.php:68
 msgid "Posts Table With Search &amp; Sort"
-msgstr "Tabla de publicaciones con búsqueda y ordenamiento"
+msgstr "带搜索和排序的帖子表"
 
 #: src/Admin/Settings_Page.php:91
 msgid "Documentation"
-msgstr "Documentación"
+msgstr "文档"
 
 #: src/Admin/Settings_Page.php:123
 msgid "Posts Table with Search and Sort"
-msgstr "Tabla de Publicaciones con Búsqueda y Ordenación"
+msgstr "带搜索和排序的帖子表"
 
 #: src/Admin/Settings_Page.php:136
 msgid "Save Changes"
-msgstr "Guardar Cambios"
+msgstr "保存更改"
 
 #: src/Admin/Settings_Page.php:164
 msgid "Posts selection"
-msgstr "Selección de publicaciones"
+msgstr "帖子选择"
 
 #: src/Admin/Settings_Page.php:170 src/Admin/Wizard/Steps/Layout.php:36
 msgid "Post type"
-msgstr "Tipo de publicación"
+msgstr "帖子类型"
 
 #: src/Admin/Settings_Page.php:172 src/Admin/Wizard/Steps/Layout.php:37
 msgid "The default post type for your tables."
-msgstr "El tipo de publicación por defecto para tus tablas."
+msgstr "您表格的默认帖子类型。"
 
 #: src/Admin/Settings_Page.php:184
 msgid "Table content"
-msgstr "Contenido de la tabla"
+msgstr "表格内容"
 
 #: src/Admin/Settings_Page.php:190 src/Admin/Wizard/Steps/Layout.php:49
 msgid "Columns"
-msgstr "Columnas"
+msgstr "列"
 
 #: src/Admin/Settings_Page.php:192
 msgid "The columns displayed in your table. Enter a comma-separated list. "
-msgstr "Las columnas mostradas en tu tabla. Introduce una lista separada por comas. "
+msgstr "在您的表格中显示的列。输入以逗号分隔的列表。"
 
 #: src/Admin/Settings_Page.php:197
 msgid "Image size"
-msgstr "Tamaño de imagen"
+msgstr "图像大小"
 
 #: src/Admin/Settings_Page.php:199
 msgid "W x H in pixels. Sets the image size when using the 'image' column. "
-msgstr ""
-"An x Al en píxeles. Establece el tamaño de la imagen al usar la columna "
-"'imagen'. "
+msgstr "以像素为单位的宽 x 高。在使用'图像'列时设置图像大小。"
 
 #: src/Admin/Settings_Page.php:204
 msgid "Image lightbox"
-msgstr "Lightbox de imagen"
+msgstr "图像灯箱"
 
 #: src/Admin/Settings_Page.php:206
 msgid "Display featured images in a lightbox when opened"
-msgstr "Mostrar imágenes destacadas en un lightbox al abrirse"
+msgstr "打开时在灯箱中显示特色图像"
 
 #: src/Admin/Settings_Page.php:210
 msgid "Shortcodes"
-msgstr "Códigos cortos"
+msgstr "短代码"
 
 #: src/Admin/Settings_Page.php:213
 msgid "Display shortcodes, HTML and other formatting inside the table content"
-msgstr "Mostrar códigos cortos, HTML y otro formato dentro del contenido de la tabla"
+msgstr "在表格内容中显示短代码、HTML 和其他格式"
 
 #: src/Admin/Settings_Page.php:218 src/Admin/Wizard/Steps/Layout.php:55
 msgid "Content length"
-msgstr "Longitud del contenido"
+msgstr "内容长度"
 
 #: src/Admin/Settings_Page.php:221 src/Admin/Settings_Page.php:233
 msgid "words"
-msgstr "palabras"
+msgstr "字"
 
 #: src/Admin/Settings_Page.php:222
 msgid "Enter -1 to show the full post content."
-msgstr "Introduce -1 para mostrar el contenido completo de la publicación."
+msgstr "输入 -1 以显示完整帖子内容。"
 
 #: src/Admin/Settings_Page.php:230
 msgid "Excerpt length"
-msgstr "Longitud del extracto"
+msgstr "摘录长度"
 
 #: src/Admin/Settings_Page.php:234
 msgid "Enter -1 to show the full excerpt."
-msgstr "Introduce -1 para mostrar el extracto completo."
+msgstr "输入 -1 以显示完整摘录。"
 
 #: src/Admin/Settings_Page.php:242
 msgid "Links"
-msgstr "Enlaces"
+msgstr "链接"
 
 #: src/Admin/Settings_Page.php:244
 msgid "Display links to the single post page, category, tag, or term archive. "
-msgstr ""
-"Mostrar enlaces a la página del post único, categoría, etiqueta o archivo "
-"de términos. "
+msgstr "显示链接到单个帖子页面、分类、标签或术语存档。"
 
 #: src/Admin/Settings_Page.php:255 src/Admin/Wizard/Steps/Loading.php:27
 msgid "Table loading"
-msgstr "Cargando tabla"
+msgstr "表格加载"
 
 #: src/Admin/Settings_Page.php:260 src/Admin/Wizard/Steps/Loading.php:42
 msgid "Lazy load"
-msgstr "Carga diferida"
+msgstr "懒加载"
 
 #: src/Admin/Settings_Page.php:263 src/Admin/Wizard/Steps/Loading.php:43
 msgid "Load the posts one page at a time"
-msgstr "Cargar los posts una página a la vez"
+msgstr "一次加载一页帖子"
 
 #: src/Admin/Settings_Page.php:264
 msgid "Enable this if you have many posts or experience slow page load times. "
-msgstr ""
-"Habilita esto si tienes muchos posts o experimentas tiempos de carga de "
-"página lentos. "
+msgstr "如果您有很多帖子或遇到页面加载缓慢，请启用此选项。"
 
 #: src/Admin/Settings_Page.php:268
 msgid "Post limit"
-msgstr "Límite de posts"
+msgstr "帖子限制"
 
 #: src/Admin/Settings_Page.php:271
 msgid "The maximum (total) number of posts to display in one table."
-msgstr "El número máximo (total) de posts a mostrar en una tabla."
+msgstr "要在一个表格中显示的最大（总）帖子数量。"
 
 #: src/Admin/Settings_Page.php:279 src/Admin/Wizard/Steps/Loading.php:36
 msgid "Posts per page"
-msgstr "Posts por página"
+msgstr "每页帖子数"
 
 #: src/Admin/Settings_Page.php:282 src/Admin/Wizard/Steps/Loading.php:37
 msgid ""
 "The number of posts per page of results. Enter -1 to display all posts on "
 "one page."
-msgstr ""
-"El número de posts por página de resultados. Introduce -1 para mostrar "
-"todos los posts en una página."
+msgstr "每页结果的帖子数。输入 -1 以在一页上显示所有帖子。"
 
 #: src/Admin/Settings_Page.php:289
 msgid "Caching"
-msgstr "Almacenamiento en caché"
+msgstr "缓存"
 
 #: src/Admin/Settings_Page.php:292
 msgid "Cache table contents to improve load time"
-msgstr "Almacenar en caché el contenido de la tabla para mejorar el tiempo de carga"
+msgstr "缓存表格内容以提高加载速度"
 
 #: src/Admin/Settings_Page.php:305
 msgid "Sorting"
-msgstr "Ordenación"
+msgstr "排序"
 
 #: src/Admin/Settings_Page.php:310 src/Admin/Wizard/Steps/Search.php:38
 msgid "Sort by"
-msgstr "Ordenar por"
+msgstr "按此排序"
 
 #: src/Admin/Settings_Page.php:314
 msgid "The initial sort order applied to the table. "
-msgstr "El orden de clasificación inicial aplicado a la tabla. "
+msgstr "应用于表格的初始排序顺序。"
 
 #: src/Admin/Settings_Page.php:318 src/Admin/Wizard/Steps/Search.php:45
 msgid "Sort direction"
-msgstr "Dirección de ordenación"
+msgstr "排序方向"
 
 #: src/Admin/Settings_Page.php:322 src/Admin/Wizard/Steps/Search.php:50
 msgid "Automatic"
-msgstr "Automático"
+msgstr "自动"
 
 #: src/Admin/Settings_Page.php:323 src/Admin/Wizard/Steps/Search.php:54
 msgid "Ascending (A to Z, 1 to 99)"
-msgstr "Ascendente (A a Z, 1 a 99)"
+msgstr "升序（A 到 Z，1 到 99）"
 
 #: src/Admin/Settings_Page.php:324 src/Admin/Wizard/Steps/Search.php:58
 msgid "Descending (Z to A, 99 to 1)"
-msgstr "Descendente (Z a A, 99 a 1)"
+msgstr "降序（Z 到 A，99 到 1）"
 
 #: src/Admin/Settings_Page.php:336
 msgid "Table controls"
-msgstr "Controles de la tabla"
+msgstr "表格控制"
 
 #: src/Admin/Settings_Page.php:341 src/Admin/Wizard/Steps/Search.php:64
 msgid "Search filters"
-msgstr "Filtros de búsqueda"
+msgstr "搜索过滤器"
 
 #: src/Admin/Settings_Page.php:345 src/Admin/Wizard/Steps/Search.php:69
 msgid "Disabled"
-msgstr "Deshabilitado"
+msgstr "禁用"
 
 #: src/Admin/Settings_Page.php:346
 msgid "Show based on columns in table"
-msgstr "Mostrar basado en columnas en la tabla"
+msgstr "根据表格中的列显示"
 
 #: src/Admin/Settings_Page.php:347
 msgid "Custom"
-msgstr "Personalizado"
+msgstr "自定义"
 
 #: src/Admin/Settings_Page.php:349
 msgid ""
 "Dropdown lists to filter the table by category, tag, attribute, or custom "
 "taxonomy. "
-msgstr ""
-"Listas desplegables para filtrar la tabla por categoría, etiqueta, atributo "
-"o taxonomía personalizada. "
+msgstr "下拉列表，用于按类别、标签、属性或自定义分类过滤表格。 "
 
 #: src/Admin/Settings_Page.php:353
 msgid "Page length"
-msgstr "Longitud de página"
+msgstr "页面长度"
 
 #: src/Admin/Settings_Page.php:357 src/Admin/Settings_Page.php:370
 #: src/Admin/Settings_Page.php:382 src/Admin/Settings_Page.php:395
 msgid "Above table"
-msgstr "Sobre la tabla"
+msgstr "表格上方"
 
 #: src/Admin/Settings_Page.php:358 src/Admin/Settings_Page.php:371
 #: src/Admin/Settings_Page.php:383 src/Admin/Settings_Page.php:396
 msgid "Below table"
-msgstr "Debajo de la tabla"
+msgstr "表格下方"
 
 #: src/Admin/Settings_Page.php:359 src/Admin/Settings_Page.php:372
 #: src/Admin/Settings_Page.php:384 src/Admin/Settings_Page.php:397
 msgid "Above and below table"
-msgstr "Sobre y debajo de la tabla"
+msgstr "表格上方和下方"
 
 #: src/Admin/Settings_Page.php:360 src/Admin/Settings_Page.php:373
 #: src/Admin/Settings_Page.php:385 src/Admin/Settings_Page.php:398
 msgid "Hidden"
-msgstr "Oculto"
+msgstr "隐藏"
 
 #: src/Admin/Settings_Page.php:362
 msgid "The position of the 'Show [x] entries' dropdown list."
-msgstr "La posición de la lista desplegable 'Mostrar [x] entradas'."
+msgstr "‘显示 [x] 条目’下拉列表的位置。"
 
 #: src/Admin/Settings_Page.php:366
 msgid "Search box"
-msgstr "Caja de búsqueda"
+msgstr "搜索框"
 
 #: src/Admin/Settings_Page.php:378
 msgid "Totals"
-msgstr "Totales"
+msgstr "总计"
 
 #: src/Admin/Settings_Page.php:387
 msgid "The position of the post totals, e.g. 'Showing 1 to 5 of 10 entries'."
-msgstr ""
-"La posición de los totales de publicaciones, por ejemplo, 'Mostrando 1 a 5 "
-"de 10 entradas'."
+msgstr "帖子总计的位置，例如‘显示 1 到 5 共 10 条目’。"
 
 #: src/Admin/Settings_Page.php:391
 msgid "Pagination buttons"
-msgstr "Botones de paginación"
+msgstr "分页按钮"
 
 #: src/Admin/Settings_Page.php:400
 msgid "The position of the paging buttons which scroll between results."
-msgstr "La posición de los botones de paginación que desplazan entre resultados."
+msgstr "在结果之间滚动的分页按钮的位置。"
 
 #: src/Admin/Settings_Page.php:404
 msgid "Pagination type"
-msgstr "Tipo de paginación"
+msgstr "分页类型"
 
 #: src/Admin/Settings_Page.php:408
 msgid "Numbers only"
-msgstr "Solo números"
+msgstr "仅数字"
 
 #: src/Admin/Settings_Page.php:409
 msgid "Prev|Next"
-msgstr "Anterior|Siguiente"
+msgstr "上一页|下一页"
 
 #: src/Admin/Settings_Page.php:410
 msgid "Prev|Next + Numbers"
-msgstr "Anterior|Siguiente + Números"
+msgstr "上一页|下一页 + 数字"
 
 #: src/Admin/Settings_Page.php:411
 msgid "Prev|Next|First|Last"
-msgstr "Anterior|Siguiente|Primero|Último"
+msgstr "上一页|下一页|首页|尾页"
 
 #: src/Admin/Settings_Page.php:412
 msgid "Prev|Next|First|Last + Numbers"
-msgstr "Prev|Siguiente|Primero|Último + Números"
+msgstr "上一页|下一页|第一页|最后一页 + 数字"
 
 #: src/Admin/Settings_Page.php:417
 msgid "Reset button"
-msgstr "Botón de reinicio"
+msgstr "重置按钮"
 
 #: src/Admin/Settings_Page.php:420
 msgid "Show a reset button above the table"
-msgstr "Mostrar un botón de reinicio encima de la tabla"
+msgstr "在表格上方显示重置按钮"
 
 #: src/Admin/Settings_Page.php:439
 msgid "Pro version only"
-msgstr "Versión Pro solamente"
+msgstr "仅限专业版"
 
 #: src/Admin/Settings_Page.php:451
 msgid ""
 "Post tables list all published posts by default. To restrict posts by "
 "category, tag, author, etc. add the %1$scorresponding option%2$s to the "
 "[posts_table] shortcode."
-msgstr ""
-"Las tablas de publicaciones listan todas las publicaciones publicadas por "
-"defecto. Para restringir las publicaciones por categoría, etiqueta, autor, "
-"etc., añade la opción %1$scorrespondiente%2$s al shortcode [posts_table]."
+msgstr "帖子表格默认列出所有已发布的帖子。要按类别、标签、作者等限制帖子，请将 %1$s相应选项%2$s 添加到 [posts_table] 短代码中。"
 
 #: src/Admin/Settings_Page.php:465
 msgid ""
 "You can override these settings for individual tables by adding options to "
 "the [posts_table] shortcode. See the %1$sKnowledge Base%2$s for details."
-msgstr ""
-"Puedes anular estas configuraciones para tablas individuales añadiendo "
-"opciones al shortcode [posts_table]. Consulta la %1$sBase de "
-"Conocimientos%2$s para más detalles."
+msgstr "您可以通过向 [posts_table] 短代码添加选项来覆盖这些设置。有关详细信息，请参阅 %1$s知识库%2$s。"
 
 #: src/Admin/Wizard/Setup_Wizard.php:58
 msgid "Go to settings page"
-msgstr "Ir a la página de configuraciones"
+msgstr "前往设置页面"
 
 #: src/Admin/Wizard/Steps/Completed.php:26
 msgid ""
 "You’re all set! Take a look at our <a href=\"%s\" "
 "target=\"_blank\">Knowledge Base</a> for further instructions, tutorials, "
 "videos, and much more."
-msgstr ""
-"¡Todo listo! Echa un vistazo a nuestra <a href=\"%s\" "
-"target=\"_blank\">Base de Conocimientos</a> para más instrucciones, "
-"tutoriales, vídeos y mucho más."
+msgstr "您已准备就绪！请查看我们的 <a href=\"%s\" target=\"_blank\">知识库</a> 以获取更多说明、教程、视频等。"
 
 #: src/Admin/Wizard/Steps/Layout.php:25
 msgid "Layout and Content"
-msgstr "Diseño y Contenido"
+msgstr "布局和内容"
 
 #: src/Admin/Wizard/Steps/Layout.php:26
 msgid "First, choose what to include in your post tables."
-msgstr "Primero, elige qué incluir en tus tablas de publicaciones."
+msgstr "首先，选择要包含在您的帖子表格中的内容。"
 
 #: src/Admin/Wizard/Steps/Layout.php:27
 msgid "Layout and content"
-msgstr "Diseño y contenido"
+msgstr "布局和内容"
 
 #: src/Admin/Wizard/Steps/Layout.php:42
 msgid "Post"
-msgstr "Publicación"
+msgstr "帖子"
 
 #: src/Admin/Wizard/Steps/Layout.php:50
 msgid "List the columns to include in your posts tables."
-msgstr "Lista las columnas a incluir en tus tablas de publicaciones."
+msgstr "列出要包含在您的帖子表格中的列。"
 
 #: src/Admin/Wizard/Steps/Layout.php:56
 msgid ""
 "If you have included a ‘content’ column, then enter the number of "
 "characters to appear in the table. Enter -1 to show the full content."
-msgstr ""
-"Si has incluido una columna de ‘contenido’, introduce el número de "
-"caracteres que deben aparecer en la tabla. Introduce -1 para mostrar el "
-"contenido completo."
+msgstr "如果您包含了“内容”列，请输入要在表格中显示的字符数。输入 -1 以显示完整内容。"
 
 #: src/Admin/Wizard/Steps/Loading.php:25
 msgid "Loading"
-msgstr "Cargando"
+msgstr "加载中"
 
 #: src/Admin/Wizard/Steps/Loading.php:26
 msgid "Control how the posts in the table load."
-msgstr "Controla cómo se cargan las publicaciones en la tabla."
+msgstr "控制表格中帖子加载的方式。"
 
 #: src/Admin/Wizard/Steps/Loading.php:44
 msgid "Enable this if you have many posts or experience slow page load times."
-msgstr ""
-"Activa esto si tienes muchas publicaciones o experimentas tiempos de carga "
-"de página lentos."
+msgstr "如果您有很多帖子或体验到页面加载速度慢，请启用此选项。"
 
 #: src/Admin/Wizard/Steps/Search.php:24 src/Admin/Wizard/Steps/Search.php:26
 msgid "Search and Sort"
-msgstr "Buscar y Ordenar"
+msgstr "搜索和排序"
 
 #: src/Admin/Wizard/Steps/Search.php:25
 msgid "Next, make it quick and easy for people to find your posts."
-msgstr ""
-"A continuación, haz que sea rápido y fácil para las personas encontrar tus "
-"publicaciones."
+msgstr "接下来，让人们快速轻松地找到您的帖子。"
 
 #: src/Admin/Wizard/Steps/Search.php:39
 msgid "The initial sort order applied to the table."
-msgstr "El orden de clasificación inicial aplicado a la tabla."
+msgstr "应用于表格的初始排序顺序。"
 
 #: src/Admin/Wizard/Steps/Upsell.php:23
 msgid "Enhance your store with these fantastic plugins from Barn2."
-msgstr "Mejora tu tienda con estos fantásticos complementos de Barn2."
+msgstr "使用这些来自Barn2的出色插件来增强您的商店。"
 
 #: src/Admin/Wizard/Steps/Welcome.php:25
 msgid "Start creating post tables in no time."
-msgstr "Empieza a crear tablas de publicaciones en un abrir y cerrar de ojos."
+msgstr "迅速开始创建帖子表格。"
 
 #: src/Admin/Wizard/Steps/Welcome.php:35
 msgid ""
 "Use this setup wizard to quickly configure your post tables. You can change "
 "these options later on the settings page, or override them in the shortcode "
 "for individual tables."
-msgstr ""
-"Utiliza este asistente de configuración para configurar rápidamente tus "
-"tablas de publicaciones. Puedes cambiar estas opciones más tarde en la "
-"página de configuración, o anularlas en el shortcode para tablas "
-"individuales."
+msgstr "使用此安装向导快速配置您的帖子表格。您可以稍后在设置页面更改这些选项，或者在单个表格的短代码中覆盖它们。"
 
 #: src/Simple_Posts_Table.php:69
 msgid "ID"
@@ -524,40 +479,40 @@ msgstr "ID"
 
 #: src/Simple_Posts_Table.php:74
 msgid "Image"
-msgstr "Imagen"
+msgstr "图片"
 
 #: src/Simple_Posts_Table.php:79
 msgid "Title"
-msgstr "Título"
+msgstr "标题"
 
 #: src/Simple_Posts_Table.php:84
 msgid "Categories"
-msgstr "Categorías"
+msgstr "分类"
 
 #: src/Simple_Posts_Table.php:89
 msgid "Tags"
-msgstr "Etiquetas"
+msgstr "标签"
 
 #: src/Simple_Posts_Table.php:94
 msgid "Date"
-msgstr "Fecha"
+msgstr "日期"
 
 #: src/Simple_Posts_Table.php:99
 msgid "Author"
-msgstr "Autor"
+msgstr "作者"
 
 #: src/Simple_Posts_Table.php:104
 msgid "Content"
-msgstr "Contenido"
+msgstr "内容"
 
 #: src/Simple_Posts_Table.php:313
 #. translators: %s: the author's name
 msgid "Posts by %s"
-msgstr "Entradas por %s"
+msgstr "来自 %s 的帖子"
 
 #. Plugin Name of the plugin/theme
 msgid "Posts Table with Search & Sort"
-msgstr "Tabla de Publicaciones con Búsqueda y Ordenación"
+msgstr "带有搜索和排序功能的帖子表格"
 
 #. Plugin URI of the plugin/theme
 msgid "https://wordpress.org/plugins/posts-data-table/"
@@ -565,13 +520,11 @@ msgstr "https://wordpress.org/plugins/posts-data-table/"
 
 #. Description of the plugin/theme
 msgid "List your posts in an instantly searchable & sortable table."
-msgstr ""
-"Enumera tus publicaciones en una tabla instantáneamente buscable y "
-"ordenable."
+msgstr "以可即时搜索和排序的表格列出您的帖子。"
 
 #. Author of the plugin/theme
 msgid "Barn2 Plugins"
-msgstr "Barn2 Plugins"
+msgstr "Barn2 插件"
 
 #. Author URI of the plugin/theme
 msgid "https://barn2.com"
