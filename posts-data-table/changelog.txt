@@ -1,7 +1,14 @@
+= 1.4.12 =
+Release date 8 December 2025
+
+* Dev: Updated internal libraries
+* Dev: Tested up to WordPress 6.9
+
 = 1.4.11 =
 Release date 28 August 2025
 
 * Dev: Updated internal libraries
+* Dev: Added translation for popular languages
 
 = 1.4.10 =
 Release date 21 April 2025

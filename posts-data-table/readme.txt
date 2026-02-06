@@ -3,9 +3,9 @@ Contributors: barn2media
 Donate link: https://barn2.com
 Tags: wordpress table plugin, data-table plugin, table plugin, table, wordpress table
 Requires at least: 6.1
-Tested up to: 6.8
+Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 1.4.11
+Stable tag: 1.4.12
 License: GPL-3.0
 License URI: https://www.gnu.org/licenses/gpl.html
 
@@ -168,9 +168,10 @@ Please report any security bugs through the [Patchstack Vulnerability Disclosure
 
 == Changelog ==
 
-= 1.4.11 =
-Release date 28 August 2025
+= 1.4.12 =
+Release date 8 December 2025
 
 * Dev: Updated internal libraries
+* Dev: Tested up to WordPress 6.9
 
 See changelog.txt for more details.
